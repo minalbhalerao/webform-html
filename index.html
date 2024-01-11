@@ -1,0 +1,77 @@
+<!-- <form action="">
+    <label for="">name</label>
+    <input type="text">
+    </br>
+    </form>
+    </form>
+    <label for="">surname</label>
+    <input type="text">
+    </br>
+    <label for="">contact no</label>
+    <input type="text">
+</form> -->
+
+    <center>
+    <form action="" method="post">
+        <table border="2px" style="background-color:greenyellow;">
+            <tr>
+                <th colspan="2px">Registration form</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Surname</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>gender</td>
+                <td><input type="radio" name="gender">female
+                    <br/>
+                <input type="radio" name="gender">male</td>
+            </tr>
+                <td>branch</td>
+                <td><input type="radio" name="branch">AIML
+                <br/>
+                <input type="radio" name="branch">cse
+                 <br/>
+                <input type="radio" name="branch">EE</td>
+            <tr>
+                <tr>
+                    <td>hobies</td>
+                <td><input type="checkbox" name="hobies">reading
+                <br/>
+                <input type="checkbox" name="hobies">dancing
+                <br/>
+                <input type="checkbox" name="hobies">lisning music
+                <br/>
+                <input type="checkbox" name="hobies">swiming
+                <br/>
+            </td></tr>
+            <tr>
+                </tr>
+                <td>contact no</td>
+                <td><input type="text"></td>
+            </tr>
+            </tr>
+            <td>form filled</td>
+            <td><input type="radio" name="form filled">yes
+                <br/>
+            <input type="radio" name="form filled">no</td>
+            <tr>
+                <td>
+                    <button>submit</button>
+                </td>
+            </tr>
+            <td><button class="float-start"><a href="logout"></a></button></td>
+
+        </table>
+    </form>
+</center>
+
+
